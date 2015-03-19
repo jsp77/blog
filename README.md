@@ -13,7 +13,7 @@ Create a blog that has the following features
 		- Content
 		- Date Posted
 		- Author
-- **Create Post
+- **Create Post**
 	- Page to create a blog post only when a user is logged in
 		- Title
 		- Content

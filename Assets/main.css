@@ -1,0 +1,499 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+#body {
+    margin: 0 auto;
+    width: 1000px;
+    position: relative;
+    z-index: 1;
+    font-family: happy monkey;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+/*
+    ====================
+    =======Header=======
+    ====================
+*/
+
+header {
+    height: 50px;
+    width: 1000px;
+    background-color: rgba(54,75,113,1);
+    margin-top: 10px;
+}
+.user-info:hover {
+    color: rgba(0,150,120,1.0);
+}
+
+.user_profile {
+    #background-image: url(http://cdn.wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-18.png);
+    #background-position: center;
+    #background-repeat: no-repeat;
+    #background-size:750px;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(54,75,113,1);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    z-index: 49;
+}
+
+.nav_menu {
+    width: 100%;
+    height: 65px;
+    text-align: center;
+    border-bottom: 4px double rgba(45,60,70,0.7);
+    border-bottom-width: 6px;
+    border-bottom-style: double;
+    border-bottom-color: rgba(45,60,70,0.7);
+    border-top: 1px solid rgba(45,60,70,0.7);
+    margin-top: 5px;
+}
+
+.nav_menu span {
+    margin: 0px 60px;
+    padding: 20px 30px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+.nav_menu span:hover {
+    color: rgba(0,150,120,1.0);
+    cursor: pointer;
+}
+.user-logout {
+    text-align: right;
+    color: rgba(220,220,220,1.0);
+    height: 50px;
+}
+
+.user-logout li {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    list-style: none;
+    top: 10px;
+}
+.user-info {
+    color: rgba(120,110,120,1.0);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.thumbnail_pic {
+    text-align: center;
+    width: 45px;
+    height: 40px;
+    border-radius: 10px;
+    color: rgba(220,220,220,1.0);
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+.pic {
+    width: 100px;
+    height: 100px;
+    z-index: 50;
+}
+.logout {
+    margin-right: 20px;
+    margin-left: 10px;
+    width: 70px;
+    height: 25px;
+    vertical-align: baseline;
+    text-transform: capitalize;
+}
+
+.logout a:hover {
+    #text-shadow: 1px 1px;
+    border: 0px 0px 0px 3px;
+    cursor: pointer;
+    color: rgba(0,150,120,1.0);
+    text-decoration: none;
+}
+/*
+    ====================
+    =======Footer=======
+    ====================
+*/
+.footer {
+    height: 50px;
+    width: 100%;
+    background-color: rgba(54,75,113,1);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: relative;
+}
+.icons {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 12px 35px;
+    color: lightgrey;
+    font-size: 20px;
+}
+
+.icons i:hover{
+    color: rgba(0,150,120,1.0);
+}
+
+.footer-nav {
+    width: 100%;
+    height: 65px;
+    text-align: center;
+    border-bottom: 1px double rgba(45,60,70,0.7);
+    border-top: 4px double rgba(45,60,70,0.7);
+    border-top-width: 6px;
+    border-top-style: double;
+    border-top-color: rgba(45,60,70,0.7);
+    position: relative;
+    margin-top: 20px;
+}
+
+/*
+    ==========================
+    =======login screen=======
+    ==========================
+*/
+
+.left-wall, .right-wall {
+    width: 50%;
+    height: 100%;
+    background-color: rgba(255,255,255,1.0);
+    position: absolute;
+    z-index: 99;
+}
+
+.left-wall {
+    left: 0px;
+    top: 0px;
+}
+
+.right-wall {
+    right: 0px;
+    top: 0px;
+}
+
+.login-container {
+    width: 320px;
+    height: 350px;
+    margin: 30% 0px;
+    border-top: 50px solid rgba(54,75,113,1);
+    border-bottom: 50px solid rgba(54,75,113,1);
+    border-radius: 0px 20px 20px 0px;
+    position: relative;
+    
+}
+
+.username, .password {
+    width: 280px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 0px;
+}
+
+::-webkit-input-placeholder {
+    padding-left: 5px;
+    color: grey;
+    font-size: 14px;
+    font-family: Happy Monkey;
+}
+
+.login-btn, .register-btn {
+    width: 120px;
+    height: 50px;
+    float: right;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,1.0);
+    font-family: Happy Monkey;
+    font-size: 14px;
+    color: black;
+}
+
+.register-btn {
+    
+}
+.login-info {
+    width: 320px;
+    height: 350px;
+    margin: 30% 0px;
+    border-top: 50px solid rgba(54,75,113,1);
+    border-bottom: 50px solid rgba(54,75,113,1);
+    border-radius: 20px 0px 0px 20px;
+    right: 0px;
+    position: absolute;
+}
+
+/*
+    ===========================
+    =======register form=======
+    ===========================
+*/
+.reg-input-top, .reg-input-bottom {
+    width: 250px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 0px;
+    margin-left: 20px;
+}
+
+.reg-input-bottom {
+}
+.top-wall, .bottom-wall {
+    width: 100%;
+    height: 50%;
+    background-color: rgba(255,255,255,1.0);
+    position: absolute;
+    z-index: 99;
+}
+
+.top-wall {
+    top: 0px;
+}
+.bottom-wall {
+    bottom: 0px;
+}
+
+.form-top, .form-bottom {
+    position: absolute;
+    margin: 0 auto;
+}
+
+.form-top {
+    width: 300px;
+    height: 220px;
+    bottom: 0px;
+    left: 28%;
+    border-top: 50px solid rgba(54,75,113,1);
+    border-radius: 20px 20px 0px 0px;
+}
+
+.form-top input:nth-child(1) {
+    margin-top: 20px;
+}
+.form-bottom {
+    left: 28%;
+    top: 0px;
+    width: 300px;
+    height: 220px;
+    border-bottom: 50px solid rgba(54,75,113,1);
+    border-radius: 0px 0px 20px 20px;
+}
+
+/*
+    ====================
+    =====login page=====
+    ====================
+*/
+.main_body {
+    width: 100%;
+}
+
+.main_content {
+    position: relative;
+    height: 400px;
+}
+
+
+.display_window {
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    overflow-y: scroll;
+    background: rgba(54,75,113,1);
+}
+
+.btn {
+    width: 110px;
+    height: 30px;
+    float: center;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,1.0);
+    font-family: Happy Monkey;
+    font-size: 14px;
+    margin-left: 20px;
+    box-shadow: 1px 1px;
+    border: 2px solid lightgrey;
+}
+
+.new_dropdown {
+    vertical-align: middle;
+    left: 100px;
+    width: 300px;
+    height: 370px;
+    position: absolute;
+    background-color: rgba(255,255,255,1.0);
+    z-index: 5;
+    border-radius: 0px 0px 10px 10px;
+    border-bottom: 20px solid rgba(54,75,113,1);
+    box-shadow: 0px 0px 1px 0px;
+}
+
+#mini_desc {
+    box-sizing: border-box;
+    width: 250px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 0px;
+    margin-left: 20px;
+    border: 0px;
+    vertical-align: sub;
+}
+#details {
+    box-sizing: border-box;
+    width: 250px;
+    height: 100px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 0px;
+    margin-left: 20px;
+    border: 0px;
+    vertical-align: sub;
+}
+
+.new_dropdown input {
+    width: 250px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 1px 0px;
+    margin-left: 20px;
+    border: 0px;
+}
+
+
+.new_dropdown input:nth-child(1) {
+    margin-top: 20px;
+}
+
+#selectfile {
+    width: 200px;
+    border-radius: 5px;
+    margin-right: 0px;
+    vertical-align: middle;
+}
+
+.select-btn {
+    width: 35px;
+    height: 25px;
+    margin-top: 0px;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,1.0);
+    font-family: Happy Monkey;
+    font-size: 16px;
+    margin-left: 10px;
+    box-shadow: 1px 1px;
+    border: 1px solid lightgrey;
+}
+/*
+    ================================
+    ===== new posts containers =====
+    ================================
+
+*/
+.post_container {
+    width: 930px;
+    height: 330px;
+    display: inline-table;
+    position: relative;
+    margin: 25px;
+    border: 1px solid lightgrey;
+    background-color: rgba(255,255,255,1);
+}
+
+.post_info {
+    width: 350px;
+    height: 170px;
+    margin: 15px;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    background-color: rgba(54,75,113,1.0);
+}
+
+.post_info span {
+    display: block;
+    margin: 5px;
+    color: white;
+    text-transform: capitalize;
+}
+.post-content {
+    width: 350px;
+    height: 120px;
+    margin: 15px;
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+    background-color: rgba(54,75,113,1.0);
+}
+
+.post-image {
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 530px;
+    height: 300px;
+    background-color: rgba(54,75,113,1.5);
+}
+.post_info button {
+    width: 75px;
+    height: 17px;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,1.0);
+    font-family: Happy Monkey;
+    font-size: 12px;
+    margin-left: 10px;
+    box-shadow: 1px 1px;
+    border: 2px solid lightgrey;
+}
+
+.post-select {
+    height: 17px;
+    width: 230px;
+    background-color: white;
+    bottom: 15px;
+    position: absolute;
+    border-radius: 5px;
+    color: black;
+    left: 10px;
+    vertical-align: super;
+    font-size: 14px;
+}
+.post-upload{
+    right: 20px;
+    bottom: 15px;
+    position: absolute;
+}
+.post-edit {
+    left: 0px;
+    bottom: 45px;
+    position: absolute;
+}
+.post-remove {
+    left: 80px;
+    bottom: 45px;
+    position: absolute;
+}
+.post-mini_content{
+    height: 40px;
+    overflow-y: scroll;
+}
+.post-content {
+    color: white;
+    padding: 10px;
+    overflow-y: scroll;
+}

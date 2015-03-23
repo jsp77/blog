@@ -9,7 +9,6 @@ if(isset($_SESSION)){
     $results = mysqli_query($CONN, $sql);
     $output = [];
 
-// onclick='console.log(\"this is \",$(this).parent().attr(\"data-id\"))'
     if(mysqli_num_rows($results) > 0) {
             while($row = mysqli_fetch_assoc($results)) {
                 $fetch_data[] = "

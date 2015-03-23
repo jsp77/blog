@@ -41,7 +41,23 @@ $('document').ready(function(){
             }
         });
     });
+        $(".login-btn").click(function(){
+        $.ajax({
+            url: '../actions/login.php',
+            dataType: 'json',
+            cache: false,
+            method: 'POST',
+            success: function(data){ 
+                if(data.success)
+                {
+                    $(".login-screen > .login-info").html(data.html); 
+                }
+            }
+        });
+    });
+    
 });
+
 function loginWall() {
     $('.left-wall').toggle({width:'toggle'});
     $('.right-wall').toggle({width:'toggle'});
